@@ -28,6 +28,6 @@ function draw() {
 
 function keyPressed(){
 	if(keyCode===UP_ARROW){
-		Matter.Body.applyForce(paper.body,paper.body.position,{x:65,y:-65});
+		Matter.Body.applyForce(paper.body,paper.body.position,{x:75,y:-75});
 	}
 }

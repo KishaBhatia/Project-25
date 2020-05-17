@@ -24,7 +24,7 @@ class Dustbin{
         translate(pos1.x,pos1.y);
         fill("white");
         noStroke();
-        rect(0,0,this.width,this.height)
+        rect(0,0,this.width,this.height);
         rect(-80,-65,20,150);
         rect(80,-65,20,150);
         imageMode(CENTER);

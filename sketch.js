@@ -14,7 +14,7 @@ function setup() {
 	world = engine.world;
 	ground=new Ground(width/2, height-25, width, 10);
 	rectObject=new Dustbin(width-200,height-40,150,20);
-	paper=new Paper(150,100);
+	paper=new Paper(130,100);
 	Engine.run(engine);
 }
 function draw() {

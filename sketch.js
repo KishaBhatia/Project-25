@@ -13,8 +13,8 @@ function setup() {
 	engine = Engine.create();
 	world = engine.world;
 	ground=new Ground(width/2, height-25, width, 10);
-	rectObject=new Dustbin(width-200,height-40,150,20);
-	paper=new Paper(140,100);
+	rectObject=new Dustbin(width-150,height-40,150,20);
+	paper=new Paper(145,100);
 	Engine.run(engine);
 }
 function draw() {

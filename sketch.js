@@ -14,7 +14,7 @@ function setup() {
 	world = engine.world;
 	ground=new Ground(width/2, height-25, width, 10);
 	rectObject=new Dustbin(width-150,height-40,150,20);
-	paper=new Paper(140,100);
+	paper=new Paper(160,100);
 	Engine.run(engine);
 }
 function draw() {
@@ -28,6 +28,6 @@ function draw() {
 
 function keyPressed(){
 	if(keyCode===UP_ARROW){
-		Matter.Body.applyForce(paper.body,paper.body.position,{x:70,y:-70});
+		Matter.Body.applyForce(paper.body,paper.body.position,{x:85,y:-85});
 	}
 }

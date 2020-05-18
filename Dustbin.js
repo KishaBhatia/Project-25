@@ -28,7 +28,7 @@ class Dustbin{
         rect(-80,-65,20,150);
         rect(80,-65,20,150);
         imageMode(CENTER);
-        image(this.image,0,-85,150,150)
+        image(this.image,0,-85,150,150);
         pop();
        
        

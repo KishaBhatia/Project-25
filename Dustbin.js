@@ -16,9 +16,9 @@ class Dustbin{
     }
 
     display(){
-        var pos1=this.body1.position
-        var pos2=this.body2.position
-        var pos3=this.body3.position
+        var pos1=this.body1.position;
+        var pos2=this.body2.position;
+        var pos3=this.body3.position;
         rectMode(CENTER);
         push();
         translate(pos1.x,pos1.y);
